@@ -1,0 +1,44 @@
+{
+  "config": {
+    "buttons": {
+      "RT": "B1",
+      "A": "B2"
+    },
+    "gyro": [
+      {
+        "axis": "Z",
+        "button": "L",
+        "threshold": 15.0,
+        "triggers": [
+          "LS"
+        ]
+      },
+      {
+        "axis": "-Z",
+        "button": "R",
+        "threshold": 15.0,
+        "triggers": [
+          "LS"
+        ]
+      },
+      {
+        "axis": "-X",
+        "button": "U",
+        "threshold": 10.0,
+        "triggers": [
+          "LS"
+        ]
+      },
+      {
+        "axis": "X",
+        "button": "D",
+        "threshold": 1.00,
+        "triggers": [
+          "LS"
+        ]
+      }
+    ],
+    "sticks": []
+  },
+  "version": 1
+}
